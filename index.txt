@@ -1,0 +1,18 @@
+-method:
+get :hiển thị giao diện or dữ liệu
+
++ get ko nhan duoc du lieu truyen ngam len tu client
++ 3 thằng còn lại có thể nhận được dữ liệu từ client truyền lên
++ 3 thằng dưới KHÔNG THỂ gọi = browser,thử kết quả của ba thằng này nó sẽ 
+là dùng postman để test
+post : nhận dữ liệu từ client hoặc thêm mới 1 dữ liệu
+put : cập nhật 1 dữ liệu
+delete : xóa 1 dữ liệu
+
+-quy tắc đặt tên api:
++tên api:class
+router.get("/class") :hiển thị toàn bộ class 
+router.get("/class/:id") :hiển thị class theo id
+router.post("/class") :thêm mới 1 class
+router.put("/class/:id") :update class theo id
+router.delete("/class/:id") : delete 1 class theo id
